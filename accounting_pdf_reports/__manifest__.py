@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo 16 Accounting Financial Reports',
-    'version': '16.0.2.0.4',
+    'name': 'Odoo 17 Accounting Financial Reports',
+    'version': '17.0.1.3',
     'category': 'Invoicing Management',
-    'description': 'Accounting Reports For Odoo 16, Accounting Financial Reports, '
-                   'Odoo 16 Financial Reports',
-    'summary': 'Accounting Reports For Odoo 16',
+    'description': 'Accounting Reports For Odoo 17, Accounting Financial Reports, '
+                   'Odoo 17 Financial Reports',
+    'summary': 'Accounting Reports For Odoo 17',
     'sequence': '1',
     'author': 'Odoo Mates, Odoo SA',
     'license': 'LGPL-3',
@@ -43,8 +43,7 @@
         'report/report_journal_entries.xml',
     ],
     'pre_init_hook': '_pre_init_clean_m2m_models',
-    'installable': True,
-    'application': False,
-    'auto_install': False,
     'images': ['static/description/banner.gif'],
 }
+
+# todo nys settings page
